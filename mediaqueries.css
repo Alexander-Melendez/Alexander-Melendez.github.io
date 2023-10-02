@@ -147,6 +147,7 @@
 
     .section__pic-container, .section__pic-container2 {
         height: 35vw;
+        justify-content: center;
     }
 
     .section__text{
@@ -170,7 +171,7 @@
 @media screen and (max-width: 400px) {
     .section__pic-container {
         height: 20vh;
-        position: absolute;
+        position: fixed;
     }
 }
 
