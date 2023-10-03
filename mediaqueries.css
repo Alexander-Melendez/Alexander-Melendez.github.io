@@ -7,8 +7,6 @@
     .about-containers {
         flex-wrap: wrap;
     }
-
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -45,9 +43,14 @@
     }
 
     .section__pic-container {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         position: absolute;
+    }
+    .section__text{
+        margin-top: 15rem;
+        margin-bottom: 2rem;
+        height: 200px;
     }
 
     .btn {
@@ -80,6 +83,7 @@
     footer p {
         position: relative;
     }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -153,6 +157,7 @@
     .section__text{
         margin-top: 15rem;
         margin-bottom: 2rem;
+        height: 400px;
     }
     
     .section__text__p2 {
@@ -168,11 +173,5 @@
     }
 }
 
-@media screen and (max-width: 400px) {
-    .section__pic-container {
-        height: 20vh;
-        position: fixed;
-    }
-}
 
 
