@@ -173,6 +173,14 @@
     .text-container {
         text-align: justify;
     }
+
+    
+}
+
+@media screen and (max-width: 300px) {
+    .contact-info-upper-container {
+        word-break: break-word;
+    }
 }
 
 

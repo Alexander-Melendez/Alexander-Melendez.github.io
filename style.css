@@ -273,6 +273,7 @@ section {
 /* ABOUT SECTION */
 
 .section__text__p3 {
+    margin-top: 3rem;
     text-align: center;
     font-size: 2rem;
 }
@@ -332,7 +333,12 @@ section {
 }
 
 .text-container {
-    font-size: 24px;
+    font-size: 28px;
+}
+
+.text-container p {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 /* Experience Section */
