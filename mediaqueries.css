@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -9,6 +10,7 @@
     }
 }
 
+/* Tablets */
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -85,7 +87,7 @@
     }
 
 }
-
+/* Mobile Phones */
 @media screen and (max-width: 600px) {
     #contact{
         height: 40vh;
